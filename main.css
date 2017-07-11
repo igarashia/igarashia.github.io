@@ -8,11 +8,16 @@ body {
 }
 
 header {
-  padding: 0;
-}
+  padding: 20px 0;
+}  
 
-footer .row {
+header nav {
   display: flex;
+  justify-content: flex-end;
+  
+header p {
+  padding: 0 20px;
+  margin: 0;
 }
 
 header h1 {
@@ -85,6 +90,10 @@ footer ul {
 footer li img {
   width: 32px;
   height: 32px;
+}
+  
+footer .row {
+  display: flex;
 }
 
 projects:active {
