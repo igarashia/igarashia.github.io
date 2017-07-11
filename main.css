@@ -35,7 +35,7 @@ header p {
 .projects {
   font-weight: bold;
   font-size: 25px;
-  font-kerning: 2em;
+  letterspacing: 1.5em;
   align: center;
   a:active
     color: #0000FF;
