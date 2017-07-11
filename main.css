@@ -16,6 +16,7 @@ footer .row {
 header h1 {
   font-weight: 700;
   margin: 0;
+  align: center;
 }
 
 header nav {
@@ -31,10 +32,10 @@ header p {
 .jumbotron {
   display: flex;
   align-items: center;
-  background-image: url('https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/jumbotron.jpg');
+  background-image: url(#');
   background-size: cover;
   color: #ffffff;
-  height: 500px;
+  height: 250px;
   text-shadow: 0.25px 0.25px 0.25px #000000;
 }
 
@@ -42,12 +43,12 @@ header p {
   font-size: 60px;
   font-weight: 700;
   margin: 0;
-  color: #fff;
+  color: #808080;
 }
 
 .jumbotron h3 {
   margin: 0 0 20px;
-  color: #fff;
+  color: 	#808080;
 }
 
 section .row img {
