@@ -10,13 +10,13 @@ header {
 header .row,
 footer .row {
   display: flex;
-  align-items: center;
+  align-items: left;
 }
 
 header h1 {
   font-weight: 700;
   margin: 0;
-  align: center;
+  align: left;
 }
 
 header nav {
