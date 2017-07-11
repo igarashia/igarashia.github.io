@@ -8,7 +8,7 @@ body {
 }
 
 header {
-  padding: 20px 0;
+  padding: 0;
 }
 
 footer .row {
@@ -28,21 +28,21 @@ header nav {
 }
 
 header p {
-  padding: 0 20px;
+  padding: 0;
   margin: 0;
 }
 
 .projects {
   font-weight: bold;
   font-size: 20px;
-  letter-spacing: 2px;
-  align: center;
+  letter-spacing: 3px;
+  align: left;
 }
 
 section .row img {
   margin: 0;
-  width: 250px;
-  height: 250px;
+  width: 300px;
+  height: 300px;
 }
 
 .col-md-6 {
