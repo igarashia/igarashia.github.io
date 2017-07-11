@@ -33,11 +33,11 @@ header p {
 }
 
 .project {
-  text-weight: bold;
+  font-weight: bold;
   align: center;
-  a:active {
+  a:active
     color: #0000FF;
-}
+    top: 2px;
 }
 
 .jumbotron {
