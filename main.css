@@ -1,6 +1,7 @@
 * {
   margin: 0
   font-family: 'Calibri', 'Roboto', sans-serif;
+  border-radius: 0 !important;
 }
 
 body {
@@ -11,8 +12,9 @@ body {
 header {
   padding: 0;
   color: #000000;
-  margin: 10px;
+  margin: 10px,0,0,0;
   background-color:transparent !important; 
+  font-family: 'EB Garamond', serif;
 }
 
 .jumbotron {
@@ -20,16 +22,20 @@ header {
   flex-wrap:wrap;
   align-items: center;
   height: 100%;
-  margin: 50px 10px 50px 10px;
+  margin: auto;
   background-color:transparent !important; 
 }
 
 .jumbotron h1 {
-  font-size: 25px;
+  font-size: 28px;
+  letter-spacing: 0.10em;
 }
 
 .jumbotron p {
-  font-size: 20px;
+  font-size: 16px;
+  line-height: 250%;
+  margin: 25px;
+  font-family: 'EB Garamond', serif;
 }
 
 footer .row {
@@ -40,12 +46,21 @@ header h1 {
   font-weight: 150px;
   margin: 0;
   position: left;
-  white-space: nowrap; 
+  white-space: nowrap;
+  letter-spacing: 0.2em;
+  left: 45px; 
 }
 
 header nav {
   display: flex;
   justify-content: flex-end;
+  right: 30px;
+}
+
+header a:hover {
+   font-family: 'EB Garamond', serif;
+   color: red;
+   text-decoration: none;
 }
 
 header p {
@@ -54,25 +69,58 @@ header p {
   font-weight: 20px;
 }
 
-.projects {
-  font-weight: bold;
-  font-size: 20px;
-  letter-spacing: 3px;
-  align: left;
+.image-container {
+  height:350px;
+  vertical-align: bottom;
+  display: table-cell;
 }
 
-.projimg img {
-  width: 500px;
-  height: 100%;
-  margin: 20px 30px 20px 30px;
+.image-container:hover {
+  position: relative; 
+  top: -1.5px;
+  color: black;
+}
+
+.projects {
+  font-weight: 550;
+  font-size: 18px;
+  color:#b5b5b5;
+  letter-spacing: 0.05em;
 }
 
 section .row img {
   margin: 0;
+  height: 200px;
+
+}
+
+.btn {
+  position: relative;
   width: 200px;
   height: 200px;
+  overflow: hidden;
   margin: 20px 30px 20px 30px;
 }
+
+.btn img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: 100%;
+  width: auto;
+  -webkit-transform: translate(-50%,-50%);
+      -ms-transform: translate(-50%,-50%);
+          transform: translate(-50%,-50%);
+  margin: 20px 30px 20px 30px;
+}
+
+.btn img.portrait {
+  width: 100%;
+  height: auto;
+  
+}
+
+
 
 .col-md-6 {
   margin: 0 0 30px;
@@ -102,10 +150,6 @@ footer li img {
 
 .link {
   color:#000000;
-{
-
-a:active {
-    top: 10px;
 }
 
   div.center-cropped {
