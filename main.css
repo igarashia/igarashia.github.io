@@ -19,6 +19,7 @@ header {
   align-items: center;
   height: 100%;
   margin: 50px 10px 50px 10px;
+  background-color:transparent !important; 
 }
 
 footer .row {
