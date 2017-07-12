@@ -78,6 +78,7 @@ footer {
   bottom: 0;
   width: 100%;
   position: absolute;
+  margin: 20px 0px 0px 10px;
  }
 
 footer .col-sm-8 {
