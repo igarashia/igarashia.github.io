@@ -65,6 +65,10 @@ section .row img {
 footer {
   font-size: 12px;
   padding: 20px 0;
+  position : absolute;
+  bottom : 0;
+  height : 40px;
+  margin-top : 40px;
 }
 
 footer .col-sm-8 {
