@@ -160,3 +160,30 @@ footer li img {
 .about {
   margin: 50px 0px 50px 0;
 }
+
+@media screen and (max-width:1020px) {
+	
+	#container {
+    float: none;
+    width: auto;
+    margin: 5px
+    }
+	#header {
+    float: none;
+    width: auto;
+    margin: 5px
+    }
+	#content {
+    float: none;
+    width: auto;
+    margin: 5px
+    }
+	#footer {
+    float: none;
+    width: auto;
+    margin: 5px
+    }
+    p h1 h2 h3 { 
+    font-size: 2em; 
+	}
+}
