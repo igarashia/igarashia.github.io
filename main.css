@@ -101,7 +101,6 @@ footer li img {
   color:#000000;
 {
 
-projects:active {
-    color: #0000FF;
+a:active {
     top: 2px;
 }
