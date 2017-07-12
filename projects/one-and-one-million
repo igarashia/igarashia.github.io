@@ -1,1 +1,69 @@
+<!DOCTYPE html>
 
+<html>
+<head>
+  <title>asami igarashi</title>
+  <meta charset="utf-8" />
+  <link rel="stylesheet"  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="https://igarashia.github.io/main.css">
+</head>
+
+<body>
+  
+  <header class="container">
+    <div class="row">
+      <a class="link" href="https://igarashia.github.io/index.html"> 
+        <h1 class="col-sm-4">asami igarashi</h1> </a>
+      <nav class="col-sm-8 text-right">
+        <a class="link" href="https://igarashia.github.io/about.html"> <p>about</p> </a>
+        <a class="link" href="https://igarashia.github.io/contact.html"> <p>contact</p> </a>
+      </nav>
+    </div>
+  </header>
+  
+    <section class="jumbotron">
+    <div class="container">
+      <div class="row text-center">
+        <h1>blend</h1>
+        <p>This conceptual design project takes an arbitrary formal operation, “blend,” to create a form using randomly shaped blocks.Through a series of incremental steps, doors, stairs, columns
+etc. were added to the form to finally create a “building”. This project explores the transition from abstracted forms/concepts to a more realistic rendition of a building.
+“Blend” operates in the mixing of parts, which are merged together to create a single entity on the exterior. On one hand, interior walls articulate the original parts. On the other hand,
+interior walls articulate the awkwardness created through intersection betwen parts as a result of blending.</p>
+      </div>     
+    </div>
+  </section>
+  
+  <section class="container">
+  <div class="projects">
+    <div class="row text-center">
+      <div class="col-sm-4">
+        <p>one-and-one-million</p>
+        <a  class="btn" href="#">
+        <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/kitchen.jpg">
+        </a>
+      </div>
+      </div>
+      </div>
+  </section>
+  
+    
+    <footer class="container">
+    <div class="row">
+      <p class="col-sm-4">&copy; 2017 asami igarashi</p>
+      <ul class="col-sm-8">
+        <li class="col-sm-1">
+          <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/twitter.svg">
+        </li>
+        <li class="col-sm-1">
+          <a href="https://www.instagram.com/asamiig211/">
+          <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/instagram.svg">
+          </a>
+        </li>
+      
+      </ul>
+    </div>
+  </footer>
+</body>
+
+</html>
