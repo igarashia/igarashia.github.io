@@ -10,12 +10,14 @@ body {
 header {
   padding: 0;
   color: #000000;
+  margin: 10px;
 }
 
 .jumbotron {
   display: flex;
   align-items: center;
   height: 200px;
+  margin: 0px;
 }
 
 footer .row {
@@ -35,7 +37,7 @@ header nav {
 }
 
 header p {
-  padding: 0;
+  padding: 20px;
   margin: 0;
 }
 
