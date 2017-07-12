@@ -12,6 +12,7 @@ header {
   padding: 0;
   color: #000000;
   margin: 10px;
+  background-color:transparent !important; 
 }
 
 .jumbotron {
