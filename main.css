@@ -163,25 +163,10 @@ footer li img {
 
 @media screen and (max-width:1020px) {
 	
-	#container {
+    #container, #header, #content #footer {
     float: none;
     width: auto;
-    margin: 5px
-    }
-	#header {
-    float: none;
-    width: auto;
-    margin: 5px
-    }
-	#content {
-    float: none;
-    width: auto;
-    margin: 5px
-    }
-	#footer {
-    float: none;
-    width: auto;
-    margin: 5px
+    margin: 0;
     }
     p h1 h2 h3 { 
     font-size: 2em; 
