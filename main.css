@@ -11,6 +11,12 @@ header {
   padding: 0;
 }
 
+.jumbotron {
+  display: flex;
+  align-items: center;
+  height: 200px;
+}
+
 footer .row {
   display: flex;
 }
