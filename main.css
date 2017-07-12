@@ -153,15 +153,10 @@ footer li img {
   color:#000000;
 }
 
-  div.center-cropped {
-    width: 100px;
-    height: 100px;
-    overflow:hidden;
+.contact {
+  margin: 50px 0px 50px 0;
 }
-div.center-cropped img {
-    height: 100%;
-    min-width: 100%;
-    left: 50%;
-    position: relative;
-    transform: translateX(-50%);
+
+.about {
+  margin: 50px 0px 50px 0;
 }
