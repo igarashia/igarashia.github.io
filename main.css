@@ -25,11 +25,11 @@ header {
 }
 
 .jumbotron h1 {
-  font-weight: 150px;
+  font-weight: 25%;
 }
 
 .jumbotron p {
-  font-weight: 25px
+  font-weight: 66%;
 }
 
 footer .row {
