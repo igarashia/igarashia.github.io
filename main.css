@@ -1,9 +1,9 @@
 * {
   margin: 0
+  font-family: 'Calibri', 'Roboto', sans-serif;
 }
 
 body {
-  font-family: 'Calibri', 'Roboto', sans-serif;
   font-weight: 150;
   padding-top: 70px;
 }
